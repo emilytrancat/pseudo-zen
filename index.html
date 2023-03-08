@@ -32,28 +32,55 @@
       <h2>Buttons</h2>
       <div>
         <button>Primary</button>
-        <button>Secondary</button>
-        <button>Error</button>
+        <button class="poo">Secondary</button>
+        <button disabled="disabled">Error</button>
       </div>
     </div>
     <div>
+
       <h2>Links</h2>
       <div>
         <a href="#">Primary link</a>
         <a href="#">Secondary link</a>
+        <a class="fluffpoo" href="https://itzzameemario">Disabled link</a>
       </div>
     </div>
+
     <div>
-      <h2>Form elements</h2>
+      <h2>Disabled Form Elements</h2>
       <form action="#">
         <label for="name">Full Name:</label>
         <input disabled type="text" id="name" name="name" />
         <label for="comments">Comments:</label>
-        <textarea id="comments" name="comments"></textarea>
+        <textarea disabled type="comments" name="comments"></textarea>
+        <button disabled="disabled">Save</button>
+      </form>
+    </div>
 
+    <div>
+      <h2>Hover and Focus Form Elements</h2>
+      <form action="#">
+        <label for="name">Full Name:</label>
+        <input for="texts" id="name" name="name" />
+        <label for="comments">Comments:</label>
+        <textarea for="texts" name="comments"></textarea>
         <button>Save</button>
       </form>
     </div>
+
+    <div>
+      <h2>Error with Focus and Hover</h2>
+      <form action="#">
+        <label for="name">Name*</label>
+        <input for="texts" id="name" name="name" />
+        <div class="poopee">Name Required.</div>
+        <label for="comments">Comments*</label>
+        <textarea for="texts" name="comments"></textarea>
+        <div class="poopee1">Comments Required.</div>
+        <button>Save</button>
+      </form>
+    </div>
+
   </main>
   <footer>&copy; 2023</footer>
   <script src="js/main.js"></script>

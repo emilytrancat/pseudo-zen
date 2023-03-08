@@ -1,1 +1,122 @@
 /* Place CSS styles here */
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700 px;
+    text-align: center;
+    color: olive;
+
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300 px;
+    text-align: center;
+    color: olive;
+
+}
+
+div {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300 px;
+    text-align: center;
+}
+
+
+button {
+    padding-top: 10 px;
+    padding-bottom: 10 px;
+    padding-right: 20 px;
+    padding-left: 20 px;
+    color: white;
+    background-color: darkolivegreen;
+    border: 1 px solid darkolivegreen; 
+    font-size: 20 px; 
+    font-weight: 600;
+    border-radius: 8 px;
+    transition: all .25s ease; 
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+button:hover { 
+    color: khaki;
+}
+
+
+button:focus {
+    box-shadow: 0 0 0 4px khaki;
+
+}
+
+
+button.poo:hover { 
+    color: darkolivegreen;
+    background-color: white 
+}
+
+button.poo:focus {
+    box-shadow: 0 0 0 4px khaki;
+
+}
+
+a:visited {
+    color: olive;
+}
+
+a:hover {
+color: orangered;
+}
+
+a:focus {
+    color: teal;
+}
+
+.fluffpoo:hover {
+    color: lightcoral;
+    }
+
+
+.fluffpoo {
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+input {
+    background-color: darkolivegreen;
+}
+
+input:hover {
+    background-color: khaki;
+}
+
+textarea {
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+textarea:hover {
+    background-color: khaki;
+    text-align: center;
+}
+
+label {
+    color: olive;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    padding: 20px;
+}
+
+textarea-disabled-text {
+color: beige;
+}
+
