@@ -53,10 +53,12 @@
     <div>
       <p>Disabled Form Elements</p>
       <form action="#">
-        <label for="namebox">Full Name:</label>
+        <label for="e">Full Name:</label>
         <input disabled type="disabledtexts" id="name" name="iamnamed" />
         <label for="commentbox">Comments:</label>
         <textarea disabled type="cant type" name="comments"></textarea>
+        <span class="visually-hidden">disabledt</span>
+       </label>
         <button disabled="disabled">Save</button>
       </form>
     </div>
@@ -68,6 +70,7 @@
         <input for="detailsofname" id="name" name="name" />
         <label for="commentbox">Comments:</label>
         <textarea for="typincomment" name="comments"></textarea>
+        <span class="visually-hidden">disabledt</span>
         <button>Save</button>
       </form>
     </div>
@@ -79,6 +82,7 @@
         <input for="detailsofname" id="name" name="name" />
         <label for="commentbox">Comments Required*</label>
         <textarea for="typincomment" name="comments"></textarea>
+        <span class="visually-hidden">disabledt</span>
         <button>Save</button>
       </form>
     </div>
