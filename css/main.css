@@ -1,10 +1,12 @@
 h1 {
+    font-size: 70px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700 px;
     text-align: left;
-    color: #210000;
+    color: #be3035;
     text-align: center;
     justify-content: center;
+    padding-top: 5 px;
 
 }
 
@@ -15,6 +17,8 @@ h2 {
     color: #210000;
     text-align: center;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
 
 }
 
@@ -29,7 +33,7 @@ div {
 
 
 button {
-    padding-top: 10 px;
+    padding-top: 15 px;
     padding-bottom: 10 px;
     padding-right: 20 px;
     padding-left: 20 px;
@@ -74,7 +78,7 @@ a:visited {
 }
 
 a:hover {
-color: orangered;
+color: #be3035;
 }
 
 a:focus {
@@ -82,7 +86,7 @@ a:focus {
 }
 
 .fluffpoo:hover {
-    color: lightcoral;
+    color: #be3035;
     }
 
 
@@ -97,12 +101,13 @@ input {
 }
 
 input:hover {
-    background-color: khaki;
+    background-color: lightgreen;
 }
 
 input:focus {
-    background-color: greenyellow;
+    background-color: khaki;
 }
+
 
 textarea {
     background-color: darkolivegreen;
@@ -111,18 +116,18 @@ textarea {
 }
 
 textarea:hover {
-    background-color: khaki;
+    background-color: lightgreen;
     text-align: left;
 }
 
+
 textarea:focus {
-    background-color: greenyellow;
+    background-color: khaki;
     text-align: left;
 }
 
 label {
     color: #210000;
-    text-align: center;
 }
 
 footer {
@@ -130,6 +135,7 @@ footer {
     font-weight: 300;
     text-align: right;
     padding: 20px;
+    color: #210000
 }
 
 .container {
@@ -152,6 +158,8 @@ footer {
   image, picture, video {
     max-width: 100%;
   }
+
+
 
   @media screen and (max-width: 1231px) and (orientation: landscape){
     body {
