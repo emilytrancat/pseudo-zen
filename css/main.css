@@ -1,25 +1,30 @@
-/* Place CSS styles here */
-
 h1 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700 px;
+    text-align: left;
+    color: #210000;
     text-align: center;
-    color: olive;
+    justify-content: center;
 
 }
 
 h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300 px;
+    text-align: left;
+    color: #210000;
     text-align: center;
-    color: olive;
+    justify-content: center;
 
 }
 
 div {
     font-family: 'Rubik', sans-serif;
     font-weight: 300 px;
+    text-align: left;
+    display: block;
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -38,6 +43,7 @@ button {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -94,18 +100,28 @@ input:hover {
     background-color: khaki;
 }
 
+input:focus {
+    background-color: greenyellow;
+}
+
 textarea {
     background-color: darkolivegreen;
+    text-align: left;
     text-align: center;
 }
 
 textarea:hover {
     background-color: khaki;
-    text-align: center;
+    text-align: left;
+}
+
+textarea:focus {
+    background-color: greenyellow;
+    text-align: left;
 }
 
 label {
-    color: olive;
+    color: #210000;
     text-align: center;
 }
 
@@ -116,7 +132,49 @@ footer {
     padding: 20px;
 }
 
-textarea-disabled-text {
-color: beige;
-}
+.container {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .centered {
+    position: center;
+    text-align: center;
+    color: lightgreen;
+    width: 100%;
+    flex: auto;
+    top: 20px;
+    left: 20px;
+    font-size: 100px;
+  }
+
+  image, picture, video {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 1231px) and (orientation: landscape){
+    body {
+      color: white;
+    }
+  }
+
+
+  @media screen and (orientation: landscape) {
+    body {
+      background-color: white;
+    }
+  }
+
+  @media screen and (max-width: 1231px) {
+    body {
+      flex-direction: column;
+    }
+  }  
+
+  @media screen and (min-width: 904px) {
+    .container {
+      flex-direction: row;
+    }
+  }  
 
