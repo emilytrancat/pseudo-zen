@@ -1,5 +1,5 @@
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700 px;
     text-align: left;
@@ -10,7 +10,8 @@ h1 {
 
 }
 
-h2 {
+p {
+    font-size: 120 px;
     font-family: 'Rubik', sans-serif;
     font-weight: 300 px;
     text-align: left;
@@ -19,7 +20,6 @@ h2 {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 5px;
-
 }
 
 div {
@@ -91,7 +91,7 @@ a:focus {
 
 
 .fluffpoo {
-    color: gray;
+    color: darkgreen;
     cursor: not-allowed;
     pointer-events: none;
 }
