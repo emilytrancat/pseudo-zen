@@ -159,15 +159,6 @@ footer {
     max-width: 100%;
   }
 
-.mario-1  {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow: hidden;
-}
-
 
 
   @media screen and (max-width: 1231px) and (orientation: landscape){
